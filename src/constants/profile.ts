@@ -1,3 +1,5 @@
+const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+
 export const PROFILE = {
   name: "Juan Duarte",
   fullName: "Juan David Duarte Sanches",
@@ -52,11 +54,11 @@ Actualmente, estoy interesado en proyectos relacionados con inteligencia artific
     "Desarrollo Frontend", "Diseño UX/UI", "Desarrollo Mobile", "APIs", 
     "Scrum", "Clean Code", "Arquitectura escalable", "Aplicaciones multiplataforma"
   ],
-  profileImage: "/images/inicio-hero.jpg",
+  profileImage: assetPath("images/inicio-hero.jpg"),
   aboutImages: [
-    "/images/sobre-mi-1.jpg",
-    "/images/sobre-mi-2.jpg",
-    "/images/sobre-mi-3.jpg"
+    assetPath("images/sobre-mi-1.jpg"),
+    assetPath("images/sobre-mi-2.jpg"),
+    assetPath("images/sobre-mi-3.jpg")
   ],
   projects: [
     {
@@ -64,7 +66,7 @@ Actualmente, estoy interesado en proyectos relacionados con inteligencia artific
       category: "Management System",
       description: "Sistema de administración para conjuntos residenciales que facilita la comunicación entre residentes y administración, gestión de pagos y reserva de zonas comunes.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
-      image: "/images/residencial-pro.jpg",
+      image: assetPath("images/residencial-pro.jpg"),
       link: "https://public-propiedad-horizontal-r32uv4b9z-juandis981-3477s-projects.vercel.app/"
     },
     {
