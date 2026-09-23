@@ -6,7 +6,7 @@ export const PROFILE = {
   title: "Full-Stack & AI Developer",
   location: "Zipaquirá, Cundinamarca, Colombia",
   status: "Disponible para proyectos remotos (Full-Stack & AI)",
-  about: `Soy Full-Stack & AI Developer con más de 3 años de experiencia diseñando y construyendo aplicaciones web y móviles completas: frontend con React, Next.js y React Native, backend con Django y Node.js, y bases de datos PostgreSQL y MongoDB.
+  about: `Soy Full-Stack & AI Developer con más de 4 años de experiencia diseñando y construyendo aplicaciones web y móviles completas: frontend con React, Next.js y React Native, backend con Django y Node.js, y bases de datos PostgreSQL y MongoDB.
 
 Me especializo en llevar agentes de IA y sistemas RAG a producción, integrando APIs como Gemini, OpenAI y Claude, así como modelos locales con Ollama para clientes con requisitos de privacidad.
 
