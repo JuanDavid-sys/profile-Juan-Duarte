@@ -457,6 +457,7 @@ export const TechStack = () => {
 
       {renderTechGroup("Frontend Development", PROFILE.technologies.frontend)}
       {renderTechGroup("Backend & Database", PROFILE.technologies.backend)}
+      {renderTechGroup("AI & Machine Learning", PROFILE.technologies.ai)}
       {renderTechGroup("Tools & Others", PROFILE.technologies.tools)}
 
       <div className="mt-24">
